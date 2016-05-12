@@ -1,0 +1,16 @@
+//Use Airbin style guide
+//https://github.com/airbnb/javascript 
+{
+	//use babel-eslint parser which allows
+	//to lint all valid babel code
+	//https://github.com/babel/babel-eslint
+	"parser": "babel-eslint",		
+	"extends": "airbnb",
+	"ecmaFeatures": {
+		"restParams": true
+	},
+	"rules": {
+		//override 2 space indent to 4 and give an error
+		"indent": [2,4]
+	}
+}

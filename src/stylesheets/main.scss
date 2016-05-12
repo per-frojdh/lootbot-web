@@ -1,0 +1,20 @@
+@import 'utils/all';
+@import 'base/all'; 
+@import 'components/all';
+
+@import 'settings';
+@import 'foundation';
+
+
+
+html{
+    height:100%;
+}
+
+body{
+    min-height: 100%;
+}
+
+#root{
+    height:100%;
+}
